@@ -4,4 +4,4 @@ An exercise on functions in C# and Unity for CS112: [Intro to Programming in Uni
 
 Author: Isaiah Mann (Teaching Assistant)
 
-[Solution Here](https://github.com/imann24/FunctionExerciseSolution)
+[View Solution Here](https://github.com/imann24/FunctionExerciseSolution)
