@@ -41,8 +41,7 @@ public class CubeController : MonoBehaviour {
 		//Adds a script to make the cube clickable
 		cube.AddComponent<CubeBehaviour>().SetController(this, colorCount);
 
-		// Sets the cubes position to equal the three floats passed in
-		cube.transform.position = new Vector3(x, y, z);
+		// TODO: Sets the cube's position to equal the three floats passed in (x, y, z)
 
 		// Returns the cube that was just created
 		return cube;
@@ -63,8 +62,8 @@ public class CubeController : MonoBehaviour {
 			colors[4] = Color.blue;
 			colors[5] = Color.magenta;
 
-			// Returns the color at the matching index
-			return colors[colorIndex];
+			// TODO: Return the color at colorIndex in the array instead of black
+			return Color.black;
 		} else {
 			// Returns black if the color index is invalid
 			return Color.black;
@@ -73,11 +72,7 @@ public class CubeController : MonoBehaviour {
 
 	// Checks whether the cube should grow based on how many times it's been clicked 
 	public bool CubeShouldGrow (int clickCount) {
-		// Checks if the click count is larger than the colorCount
-		if (clickCount > colorCount) {
-			return true;
-		} else {
-			return false;
-		}
+		// TODO: check if clickCount is greater than colorCount and return true if so
+		return false;
 	}
 }
